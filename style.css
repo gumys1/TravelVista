@@ -1,0 +1,338 @@
+/* Custom Styles for TravelVista Tourism Website */
+
+:root {
+    --primary-color: #28a745;
+    --secondary-color: #ffc107;
+    --text-color: #333;
+    --light-bg: #f8f9fa;
+    --bg:#f4f7fb;
+    --card:#ffffff;
+    --accent:#0077b6;
+    --error:#d93025;
+    --success:#0f9d58;
+    --muted:#6b7280;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    color: var(--primary-color) !important;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: fadeInDown 0.8s ease;
+}
+
+.hero-section p {
+    font-size: 1.3rem;
+    animation: fadeInUp 0.8s ease;
+}
+
+.hero-section .btn-warning {
+    padding: 12px 40px;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-section .btn-warning:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Services Section Styles */
+.services-section {
+    background-color: #fff;
+}
+
+.services-section h2 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+.services-section .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+}
+
+.services-section .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.services-section .card-title {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+}
+
+/* Destinations Section Styles */
+.destinations-section {
+    background-color: #f8f9fa;
+}
+
+.destinations-section h2 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+}
+
+.destinations-section .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.destinations-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.destinations-section .card img {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.destinations-section .card:hover img {
+    transform: scale(1.05);
+}
+
+.destinations-section .card-title {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+
+.destinations-section .btn {
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.destinations-section .btn:hover {
+    transform: scale(1.05);
+}
+
+/* Booking Form Section Styles */
+.booking-section {
+    background-color: #fff;
+}
+
+.booking-section h2 {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.booking-section .form-label {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.booking-section .form-control,
+.booking-section .form-select {
+    border: 2px solid #dee2e6;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.booking-section .form-control:focus,
+.booking-section .form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.booking-section .btn-success {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 12px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.booking-section .btn-success:hover {
+    background-color: #218838;
+    border-color: #218838;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(40, 167, 69, 0.3);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #212529;
+    margin-top: 5rem;
+}
+
+footer p {
+    font-size: 0.95rem;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Form Validation Styles */
+.error {
+    color: var(--error);
+    font-size: 13px;
+    height: 18px;
+    margin-top: 6px;
+}
+
+.invalid {
+    border-color: var(--error) !important;
+}
+
+.form-message {
+    margin-top: 14px;
+    font-size: 15px;
+    min-height: 22px;
+    text-align: center;
+}
+
+.form-message.success {
+    color: var(--success);
+}
+
+.form-message.error {
+    color: var(--error);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1.1rem;
+    }
+
+    .hero-section {
+        min-height: 350px;
+    }
+
+    .services-section h2,
+    .destinations-section h2 {
+        font-size: 2rem;
+    }
+
+    .booking-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        padding-top: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .hero-section .btn-warning {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+
+    .services-section .card-title,
+    .destinations-section .card-title {
+        font-size: 1.1rem;
+    }
+
+    .booking-section .border {
+        padding: 1.5rem !important;
+    }
+
+    .form {
+        padding: 18px;
+        border-radius: 10px;
+    }
+}
+
+/* Card Hover Effects */
+.card {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+/* Spacing Utilities */
+.mt-custom {
+    margin-top: 3rem;
+}
+
+.mb-custom {
+    margin-bottom: 3rem;
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn:focus {
+    outline: none;
+}
