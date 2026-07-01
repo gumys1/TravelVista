@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <!-- Sky -->
+  <rect width="400" height="140" fill="#87CEEB"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="30" r="15" fill="#FFD700"/>
+  
+  <!-- Building 1 (Left) -->
+  <rect x="20" y="100" width="60" height="140" fill="#696969"/>
+  <rect x="25" y="105" width="50" height="130" fill="#808080"/>
+  
+  <!-- Windows Building 1 -->
+  <rect x="30" y="110" width="10" height="10" fill="#87CEEB"/>
+  <rect x="45" y="110" width="10" height="10" fill="#87CEEB"/>
+  <rect x="30" y="130" width="10" height="10" fill="#FFD700"/>
+  <rect x="45" y="130" width="10" height="10" fill="#87CEEB"/>
+  <rect x="30" y="150" width="10" height="10" fill="#87CEEB"/>
+  <rect x="45" y="150" width="10" height="10" fill="#87CEEB"/>
+  <rect x="30" y="170" width="10" height="10" fill="#FFD700"/>
+  <rect x="45" y="170" width="10" height="10" fill="#87CEEB"/>
+  <rect x="30" y="190" width="10" height="10" fill="#87CEEB"/>
+  <rect x="45" y="190" width="10" height="10" fill="#87CEEB"/>
+  <rect x="30" y="210" width="10" height="10" fill="#87CEEB"/>
+  <rect x="45" y="210" width="10" height="10" fill="#FFD700"/>
+  
+  <!-- Building 2 (Center - Tallest) -->
+  <rect x="110" y="60" width="80" height="180" fill="#696969"/>
+  <rect x="115" y="65" width="70" height="170" fill="#4F4F4F"/>
+  
+  <!-- Windows Building 2 -->
+  <rect x="125" y="75" width="8" height="8" fill="#87CEEB"/>
+  <rect x="140" y="75" width="8" height="8" fill="#87CEEB"/>
+  <rect x="155" y="75" width="8" height="8" fill="#FFD700"/>
+  
+  <rect x="125" y="95" width="8" height="8" fill="#FFD700"/>
+  <rect x="140" y="95" width="8" height="8" fill="#87CEEB"/>
+  <rect x="155" y="95" width="8" height="8" fill="#87CEEB"/>
+  
+  <rect x="125" y="115" width="8" height="8" fill="#87CEEB"/>
+  <rect x="140" y="115" width="8" height="8" fill="#87CEEB"/>
+  <rect x="155" y="115" width="8" height="8" fill="#87CEEB"/>
+  
+  <rect x="125" y="135" width="8" height="8" fill="#87CEEB"/>
+  <rect x="140" y="135" width="8" height="8" fill="#FFD700"/>
+  <rect x="155" y="135" width="8" height="8" fill="#87CEEB"/>
+  
+  <rect x="125" y="155" width="8" height="8" fill="#87CEEB"/>
+  <rect x="140" y="155" width="8" height="8" fill="#87CEEB"/>
+  <rect x="155" y="155" width="8" height="8" fill="#87CEEB"/>
+  
+  <rect x="125" y="175" width="8" height="8" fill="#FFD700"/>
+  <rect x="140" y="175" width="8" height="8" fill="#87CEEB"/>
+  <rect x="155" y="175" width="8" height="8" fill="#87CEEB"/>
+  
+  <rect x="125" y="195" width="8" height="8" fill="#87CEEB"/>
+  <rect x="140" y="195" width="8" height="8" fill="#87CEEB"/>
+  <rect x="155" y="195" width="8" height="8" fill="#87CEEB"/>
+  
+  <!-- Building 3 (Right) -->
+  <rect x="220" y="110" width="70" height="130" fill="#696969"/>
+  <rect x="225" y="115" width="60" height="120" fill="#808080"/>
+  
+  <!-- Windows Building 3 -->
+  <rect x="235" y="125" width="10" height="10" fill="#87CEEB"/>
+  <rect x="255" y="125" width="10" height="10" fill="#FFD700"/>
+  <rect x="235" y="150" width="10" height="10" fill="#87CEEB"/>
+  <rect x="255" y="150" width="10" height="10" fill="#87CEEB"/>
+  <rect x="235" y="175" width="10" height="10" fill="#FFD700"/>
+  <rect x="255" y="175" width="10" height="10" fill="#87CEEB"/>
+  <rect x="235" y="200" width="10" height="10" fill="#87CEEB"/>
+  <rect x="255" y="200" width="10" height="10" fill="#87CEEB"/>
+  
+  <!-- Building 4 (Far Right) -->
+  <rect x="315" y="120" width="55" height="120" fill="#696969"/>
+  <rect x="320" y="125" width="45" height="110" fill="#707070"/>
+  
+  <!-- Windows Building 4 -->
+  <rect x="330" y="135" width="8" height="8" fill="#87CEEB"/>
+  <rect x="345" y="135" width="8" height="8" fill="#87CEEB"/>
+  <rect x="330" y="160" width="8" height="8" fill="#FFD700"/>
+  <rect x="345" y="160" width="8" height="8" fill="#87CEEB"/>
+  <rect x="330" y="185" width="8" height="8" fill="#87CEEB"/>
+  <rect x="345" y="185" width="8" height="8" fill="#87CEEB"/>
+  
+  <!-- Street/Ground -->
+  <rect y="240" width="400" height="10" fill="#696969"/>
+  
+  <!-- Road lines -->
+  <rect x="0" y="244" width="400" height="1" fill="#FFD700"/>
+</svg>
